@@ -1,0 +1,8 @@
+{
+  "layer.touhoublessings.blessing.name": "Siunaus",
+  "layer.touhoublessings.blessing.missing_origin.name": "Puuttuu",
+  "layer.touhoublessings.blessing.missing_origin.description": "Sinulla ei ole siunausta.",
+
+  "origin.touhoublessings.regular.name": "Tavallinen",
+  "origin.touhoublessings.regular.description": "Tavanomainen siunaus. Se ei varsinaisesti tee mitään."
+}

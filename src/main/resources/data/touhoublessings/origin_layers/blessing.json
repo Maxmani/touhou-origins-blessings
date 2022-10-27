@@ -1,0 +1,11 @@
+{
+  "order": 15,
+  "origins": [
+    "touhoublessings:regular"
+  ],
+  "allow_random": true,
+  "exclude_random": [
+    "touhoublessings:regular",
+    "touhoublessings:high_stakes"
+  ]
+}

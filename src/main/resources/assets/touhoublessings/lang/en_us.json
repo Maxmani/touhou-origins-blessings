@@ -1,0 +1,8 @@
+{
+  "layer.touhoublessings.blessing.name": "Blessing",
+  "layer.touhoublessings.blessing.missing_origin.name": "Missing",
+  "layer.touhoublessings.blessing.missing_origin.description": "You do not have a Blessing.",
+
+  "origin.touhoublessings.regular.name": "Regular",
+  "origin.touhoublessings.regular.description": "An ordinary blessing. It doesn't really do anything."
+}
