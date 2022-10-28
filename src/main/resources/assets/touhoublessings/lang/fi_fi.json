@@ -26,6 +26,12 @@
   "power.touhoublessings.glass_cannon.name": "Lasitykki",
   "power.touhoublessings.glass_cannon.description": "Vastineeksi puolesta kokonaiselinvoimastasi saat 25% enemmän perusvahinkoa.",
 
+  "origin.touhoublessings.knowledge.name": "Tieto",
+  "origin.touhoublessings.knowledge.description": "Sammuta kokemuspisteiden janosi tiedon siunauksella.",
+
+  "power.touhoublessings.adept.name": "Taitava",
+  "power.touhoublessings.adept.description": "Saat 50% enemmän kokemuspisteitä kaikista lähteistä.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Ihme tapahtuu",
 
   "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja."

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "touhoublessings:adept"
+  ],
+  "icon": {
+    "item": "minecraft:player_head",
+    "tag": "{SkullOwner:{Id:[I;-1688581797,-1811332835,-1220745888,-488261889],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzk5YWQ3YTA0MzE2OTI5OTRiNmM0MTJjN2VhZmI5ZTBmYzQ5OTc1MjQwYjczYTI3ZDI0ZWQ3OTcwMzVmYjg5NCJ9fX0=\"}]}}}"
+  },
+  "order": 3,
+  "impact": 1
+}

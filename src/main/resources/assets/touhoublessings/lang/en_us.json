@@ -26,6 +26,12 @@
   "power.touhoublessings.glass_cannon.name": "Glass Cannon",
   "power.touhoublessings.glass_cannon.description": "In exchange for half of your total health, you gain 25% increased base damage.",
 
+  "origin.touhoublessings.knowledge.name": "Knowledge",
+  "origin.touhoublessings.knowledge.description": "Quench your thirst for experience with the Blessing of Knowledge.",
+
+  "power.touhoublessings.adept.name": "Adept",
+  "power.touhoublessings.adept.description": "You gain 50% increased XP from all sources.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa."

@@ -1,0 +1,7 @@
+{
+  "type": "apoli:modify_xp_gain",
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.5
+  }
+}
