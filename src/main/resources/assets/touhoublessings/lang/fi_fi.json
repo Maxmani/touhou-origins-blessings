@@ -12,5 +12,15 @@
   "power.touhoublessings.youkai_buster.name": "Youkai murskaaja",
   "power.touhoublessings.youkai_buster.description": "Aiheutat 10% enemmän vahinkoa kaikkia youkaita vastaan.",
 
+  "origin.touhoublessings.moriya.name": "Moriya",
+  "origin.touhoublessings.moriya.description": "Moriya pyhäkön siunauksella pääset tuulen jumalan suojelukseen.",
+
+  "power.touhoublessings.wind_protection.name": "Tuulen suojaus",
+  "power.touhoublessings.wind_protection.description": "Otat 10% vähemmän perusvahinkoa putoamisesta.",
+  "power.touhoublessings.miracle.name": "Ihme",
+  "power.touhoublessings.miracle.description": "Sinulla on yhden prosentin mahdollisuus mitätöidä kaikki vahinko.",
+
+  "touhoublessings.subtitles.blessing.miracle.trigger": "Ihme tapahtuu",
+
   "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja."
 }

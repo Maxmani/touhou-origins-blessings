@@ -1,0 +1,34 @@
+{
+  "type": "apoli:modify_damage_taken",
+  "condition": {
+    "type": "apoli:predicate",
+    "predicate": "touhoublessings:miracle_chance"
+  },
+  "modifier": {
+    "name": "Prevent damage",
+    "operation": "multiply_total_multiplicative",
+    "value": -1
+  },
+  "self_action": {
+    "type": "apoli:and",
+    "actions": [
+      {
+        "type": "apoli:spawn_particles",
+        "particle": "minecraft:end_rod",
+        "count": 100,
+        "speed": 0.1,
+        "force": true,
+        "spread": {
+          "x": 0.1,
+          "y": 0.0,
+          "z": 0.1
+        }
+      },
+      {
+        "type": "apoli:play_sound",
+        "sound": "touhoublessings:blessing.miracle.trigger",
+        "volume": 2
+      }
+    ]
+  }
+}

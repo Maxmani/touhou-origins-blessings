@@ -2,7 +2,8 @@
   "order": 15,
   "origins": [
     "touhoublessings:regular",
-    "touhoublessings:hakurei"
+    "touhoublessings:hakurei",
+    "touhoublessings:moriya"
   ],
   "allow_random": true,
   "exclude_random": [

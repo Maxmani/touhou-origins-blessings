@@ -1,6 +1,7 @@
 package net.maxmani.touhoublessings;
 
 import net.fabricmc.api.ModInitializer;
+import net.maxmani.touhoublessings.registry.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,7 @@ public class TouhouBlessings implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Blessing your origins.");
+
+		ModSounds.register();
 	}
 }

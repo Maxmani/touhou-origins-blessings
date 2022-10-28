@@ -74,7 +74,7 @@
     },
     "modifier": {
       "name": "Damage bonus against youkai",
-      "operation": "multiply_total",
+      "operation": "multiply_total_multiplicative",
       "value": 0.10
     }
   },
@@ -152,7 +152,7 @@
     },
     "modifier": {
       "name": "Damage bonus against youkai",
-      "operation": "multiply_total",
+      "operation": "multiply_total_multiplicative",
       "value": 0.10
     }
   },

@@ -1,0 +1,15 @@
+{
+  "blessing.miracle.trigger": {
+    "sounds": [
+      {
+        "name": "item/trident/thunder1",
+        "pitch": 2
+      },
+      {
+        "name": "item/trident/thunder2",
+        "pitch": 2
+      }
+    ],
+    "subtitle": "touhoublessings.subtitles.blessing.miracle.trigger"
+  }
+}

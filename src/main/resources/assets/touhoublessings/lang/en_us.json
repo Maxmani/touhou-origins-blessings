@@ -12,5 +12,15 @@
   "power.touhoublessings.youkai_buster.name": "Youkai Buster",
   "power.touhoublessings.youkai_buster.description": "You deal 10% increased damage against all youkai.",
 
+  "origin.touhoublessings.moriya.name": "Moriya",
+  "origin.touhoublessings.moriya.description": "With the Moriya Shrine's blessing, you will be put under the Wind God's protection.",
+
+  "power.touhoublessings.wind_protection.name": "Wind Protection",
+  "power.touhoublessings.wind_protection.description": "You take 10% reduced base fall damage.",
+  "power.touhoublessings.miracle.name": "Miracle",
+  "power.touhoublessings.miracle.description": "You have a 1% chance of negating all damage.",
+
+  "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
+
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa."
 }
