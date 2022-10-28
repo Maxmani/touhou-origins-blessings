@@ -20,6 +20,12 @@
   "power.touhoublessings.miracle.name": "Miracle",
   "power.touhoublessings.miracle.description": "You have a 1% chance of negating all damage.",
 
+  "origin.touhoublessings.high_stakes.name": "High Stakes",
+  "origin.touhoublessings.high_stakes.description": "Trade your health for more damage.",
+
+  "power.touhoublessings.glass_cannon.name": "Glass Cannon",
+  "power.touhoublessings.glass_cannon.description": "In exchange for half of your total health, you gain 25% increased base damage.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa."

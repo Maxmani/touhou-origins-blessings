@@ -20,6 +20,12 @@
   "power.touhoublessings.miracle.name": "Ihme",
   "power.touhoublessings.miracle.description": "Sinulla on yhden prosentin mahdollisuus mitätöidä kaikki vahinko.",
 
+  "origin.touhoublessings.high_stakes.name": "Korkeat panokset",
+  "origin.touhoublessings.high_stakes.description": "Vaihda elinvoimaasi lisää vahinkoa vastaan.",
+
+  "power.touhoublessings.glass_cannon.name": "Lasitykki",
+  "power.touhoublessings.glass_cannon.description": "Vastineeksi puolesta kokonaiselinvoimastasi saat 25% enemmän perusvahinkoa.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Ihme tapahtuu",
 
   "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja."

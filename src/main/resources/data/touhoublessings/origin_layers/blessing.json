@@ -3,7 +3,8 @@
   "origins": [
     "touhoublessings:regular",
     "touhoublessings:hakurei",
-    "touhoublessings:moriya"
+    "touhoublessings:moriya",
+    "touhoublessings:high_stakes"
   ],
   "allow_random": true,
   "exclude_random": [
