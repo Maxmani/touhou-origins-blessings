@@ -1,0 +1,168 @@
+{
+  "type": "apoli:multiple",
+  "melee": {
+    "type": "apoli:modify_damage_dealt",
+    "target_condition": {
+      "type": "apoli:and",
+      "conditions": [
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:player"
+        },
+        {
+          "type": "apoli:or",
+          "conditions" : [
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:vampire"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:oni"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:kappa"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:satori"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:satori_closed_eye"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:crow_tengu"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:wolf_tengu"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:ghost"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:jiang_shi"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:vengeful_spirit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:yuki_onna"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:moon_rabbit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:earth_rabbit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:hell_raven"
+            }
+          ]
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Damage bonus against youkai",
+      "operation": "multiply_total",
+      "value": 0.10
+    }
+  },
+  "ranged": {
+    "type": "apoli:modify_projectile_damage",
+    "target_condition": {
+      "type": "apoli:and",
+      "conditions": [
+        {
+          "type": "apoli:entity_type",
+          "entity_type": "minecraft:player"
+        },
+        {
+          "type": "apoli:or",
+          "conditions" : [
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:vampire"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:oni"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:kappa"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:satori"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:satori_closed_eye"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:crow_tengu"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:wolf_tengu"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:ghost"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:jiang_shi"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:vengeful_spirit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:yuki_onna"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:moon_rabbit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:earth_rabbit"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:hell_raven"
+            }
+          ]
+        }
+      ]
+    },
+    "modifier": {
+      "name": "Damage bonus against youkai",
+      "operation": "multiply_total",
+      "value": 0.10
+    }
+  },
+  "badges": [
+    {
+      "type": "origins:tooltip",
+      "sprite": "origins:textures/gui/badge/info.png",
+      "text": {
+        "translate": "power.touhoublessings.youkai_buster.badge"
+      }
+    }
+  ]
+}

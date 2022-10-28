@@ -4,5 +4,13 @@
   "layer.touhoublessings.blessing.missing_origin.description": "Sinulla ei ole siunausta.",
 
   "origin.touhoublessings.regular.name": "Tavallinen",
-  "origin.touhoublessings.regular.description": "Tavanomainen siunaus. Se ei varsinaisesti tee mitään."
+  "origin.touhoublessings.regular.description": "Tavanomainen siunaus. Se ei varsinaisesti tee mitään.",
+
+  "origin.touhoublessings.hakurei.name": "Hakurei",
+  "origin.touhoublessings.hakurei.description": "Temppelineitoja koulutetaan youkaiden tuhoamiseen sekä tavanomaisiin tehtäviin, kuten siunausten suorittamiseen.",
+
+  "power.touhoublessings.youkai_buster.name": "Youkai murskaaja",
+  "power.touhoublessings.youkai_buster.description": "Aiheutat 10% enemmän vahinkoa kaikkia youkaita vastaan.",
+
+  "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja."
 }

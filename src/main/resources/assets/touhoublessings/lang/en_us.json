@@ -4,5 +4,13 @@
   "layer.touhoublessings.blessing.missing_origin.description": "You do not have a Blessing.",
 
   "origin.touhoublessings.regular.name": "Regular",
-  "origin.touhoublessings.regular.description": "An ordinary blessing. It doesn't really do anything."
+  "origin.touhoublessings.regular.description": "An ordinary blessing. It doesn't really do anything.",
+
+  "origin.touhoublessings.hakurei.name": "Hakurei",
+  "origin.touhoublessings.hakurei.description": "Shrine maidens are trained in youkai extermination techniques as well as standard duties like performing blessings.",
+
+  "power.touhoublessings.youkai_buster.name": "Youkai Buster",
+  "power.touhoublessings.youkai_buster.description": "You deal 10% increased damage against all youkai.",
+
+  "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa."
 }
