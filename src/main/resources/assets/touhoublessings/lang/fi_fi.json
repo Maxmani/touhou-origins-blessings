@@ -21,7 +21,7 @@
   "power.touhoublessings.miracle.description": "Sinulla on yhden prosentin mahdollisuus mitätöidä kaikki vahinko.",
 
   "origin.touhoublessings.high_stakes.name": "Korkeat panokset",
-  "origin.touhoublessings.high_stakes.description": "Vaihda elinvoimaasi lisää vahinkoa vastaan.",
+  "origin.touhoublessings.high_stakes.description": "Vaihda elinvoimaasi lisää vahinkoa vastaan korkeiden panoksien kirouksella.",
 
   "power.touhoublessings.glass_cannon.name": "Lasitykki",
   "power.touhoublessings.glass_cannon.description": "Vastineeksi puolesta kokonaiselinvoimastasi saat 25% enemmän perusvahinkoa.",
@@ -32,7 +32,16 @@
   "power.touhoublessings.adept.name": "Taitava",
   "power.touhoublessings.adept.description": "Saat 50% enemmän kokemuspisteitä kaikista lähteistä.",
 
+  "origin.touhoublessings.permadeath.name": "Lopullinen kuolema",
+  "origin.touhoublessings.permadeath.description": "Kuollessasi sielusi ei ylitä Sanzu-jokea tuonpuoleisessa elämässä, vaan syntyy uudelleen, jolloin menetät kaiken maanpäällisen omaisuutesi, mukaan lukien ender-arkussasi ja alkuperäkohtaisissa tavaraluetteloissa olevat esineet, sekä kaiken muun edistymisesi. Toisaalta saat mahdollisuuden valita itsellesi uuden alkuperän.",
+
+  "power.touhoublessings.one_life.name": "Yksi elämä",
+  "power.touhoublessings.one_life.description": "Kuten Hardcore-tilassa, sinulla on vain yksi elämä. Jos kuolet, sen sijaan, että joutuisit katsojatilaan, synnyt uudelleen. Menetät suurimman osan edistymisestäsi, mutta saat valita uuden alkuperän.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Ihme tapahtuu",
 
-  "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja."
+  "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja.",
+  "power.touhoublessings.one_life.activate": "Olet nyt Permadeath-tilassa, onnea matkaan!",
+  "power.touhoublessings.one_life.death": "%1$s on kuollut Permadeath-tilassa %2$s kertaa!",
+  "power.touhoublessings.one_life.deathOnce": "%1$s on kuollut Permadeath-tilassa!"
 }

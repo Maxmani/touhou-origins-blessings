@@ -1,0 +1,51 @@
+{
+  "type": "apoli:multiple",
+  "status_bar": {
+    "type": "apoli:status_bar_texture",
+    "texture": "touhoublessings:textures/gui/permadeath.png"
+  },
+  "objective": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:execute_command",
+          "command": "scoreboard objectives add permadeath dummy"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "tellraw @s {\"translate\":\"power.touhoublessings.one_life.activate\",\"color\":\"dark_red\"}"
+        }
+      ]
+    },
+    "entity_action_respawned": {
+      "type": "apoli:and",
+      "actions": [
+        {
+          "type": "apoli:execute_command",
+          "command": "origin gui @s"
+        },
+        {
+          "type": "apoli:execute_command",
+          "command": "clear @s"
+        }
+      ]
+    }
+  },
+  "death": {
+    "type": "apoli:action_when_damage_taken",
+    "entity_action": {
+      "type": "apoli:execute_command",
+      "command": "function touhoublessings:permadeath"
+    },
+    "condition": {
+      "type": "apoli:relative_health",
+      "comparison": "<=",
+      "compare_to": 0
+    }
+  },
+  "keep_inventory": {
+    "type": "apoli:keep_inventory"
+  }
+}

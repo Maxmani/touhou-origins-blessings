@@ -21,7 +21,7 @@
   "power.touhoublessings.miracle.description": "You have a 1% chance of negating all damage.",
 
   "origin.touhoublessings.high_stakes.name": "High Stakes",
-  "origin.touhoublessings.high_stakes.description": "Trade your health for more damage.",
+  "origin.touhoublessings.high_stakes.description": "Trade your health for more damage with the Curse of High Stakes.",
 
   "power.touhoublessings.glass_cannon.name": "Glass Cannon",
   "power.touhoublessings.glass_cannon.description": "In exchange for half of your total health, you gain 25% increased base damage.",
@@ -32,7 +32,16 @@
   "power.touhoublessings.adept.name": "Adept",
   "power.touhoublessings.adept.description": "You gain 50% increased XP from all sources.",
 
+  "origin.touhoublessings.permadeath.name": "Permadeath",
+  "origin.touhoublessings.permadeath.description": "Upon dying, instead of crossing the Sanzu River in the afterlife, your soul will reincarnate, losing all earthly possessions including those in your ender chest and origin specific inventories, as well as any other progress you've made. On the other hand, you'll get a chance to pick a new origin for yourself.",
+
+  "power.touhoublessings.one_life.name": "One Life",
+  "power.touhoublessings.one_life.description": "Like Hardcore mode, you only have one life. If you die, instead of being forced into spectator mode, you respawn with a fresh character. You lose most of your progress but get to pick a new origin.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
-  "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa."
+  "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa.",
+  "power.touhoublessings.one_life.activate": "You have entered Permadeath mode, good luck!",
+  "power.touhoublessings.one_life.death": "%1$s has fallen in Permadeath mode %2$s times!",
+  "power.touhoublessings.one_life.deathOnce": "%1$s has fallen in Permadeath mode!"
 }

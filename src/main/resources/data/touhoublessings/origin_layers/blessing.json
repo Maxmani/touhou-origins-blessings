@@ -5,11 +5,13 @@
     "touhoublessings:hakurei",
     "touhoublessings:moriya",
     "touhoublessings:high_stakes",
-    "touhoublessings:knowledge"
+    "touhoublessings:knowledge",
+    "touhoublessings:permadeath"
   ],
   "allow_random": true,
   "exclude_random": [
     "touhoublessings:regular",
-    "touhoublessings:high_stakes"
+    "touhoublessings:high_stakes",
+    "touhoublessings:permadeath"
   ]
 }
