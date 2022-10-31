@@ -67,6 +67,10 @@
             {
               "type": "origins:origin",
               "origin": "touhouorigins:hell_raven"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:kurayami"
             }
           ]
         }
@@ -145,6 +149,10 @@
             {
               "type": "origins:origin",
               "origin": "touhouorigins:hell_raven"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:kurayami"
             }
           ]
         }
