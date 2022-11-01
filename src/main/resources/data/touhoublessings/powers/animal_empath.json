@@ -1,0 +1,36 @@
+{
+  "type": "apoli:multiple",
+  "damage": {
+    "type": "apoli:modify_damage_dealt",
+    "bientity_condition": {
+      "type": "apoli:owner"
+    },
+    "modifier": {
+      "name": "No damage to pets",
+      "operation": "set_total",
+      "value": 0
+    }
+  },
+  "regeneration": {
+    "type": "apoli:action_over_time",
+    "interval": 60,
+    "entity_action": {
+      "type": "apoli:area_of_effect",
+      "radius": 16,
+      "bientity_action": {
+        "type": "apoli:target_action",
+        "action": {
+          "type": "apoli:apply_effect",
+          "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 180,
+            "is_ambient": true
+          }
+        }
+      },
+      "bientity_condition": {
+        "type": "apoli:owner"
+      }
+    }
+  }
+}

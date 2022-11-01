@@ -6,7 +6,8 @@
     "touhoublessings:moriya",
     "touhoublessings:high_stakes",
     "touhoublessings:knowledge",
-    "touhoublessings:permadeath"
+    "touhoublessings:permadeath",
+    "touhoublessings:beast_spirits"
   ],
   "allow_random": true,
   "exclude_random": [

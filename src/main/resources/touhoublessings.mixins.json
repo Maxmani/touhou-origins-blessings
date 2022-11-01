@@ -4,6 +4,12 @@
   "package": "net.maxmani.touhoublessings.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "AbstractHorseEntityMixin",
+    "AnimalEntityMixin",
+    "ChildCreationMixin$CatKids",
+    "ChildCreationMixin$HorseKids",
+    "ChildCreationMixin$WolfKids",
+    "TameableEntityMixin"
   ],
   "client": [
   ],

@@ -38,6 +38,18 @@
   "power.touhoublessings.one_life.name": "Yksi elämä",
   "power.touhoublessings.one_life.description": "Kuten Hardcore-tilassa, sinulla on vain yksi elämä. Jos kuolet, sen sijaan, että joutuisit katsojatilaan, synnyt uudelleen. Menetät suurimman osan edistymisestäsi, mutta saat valita uuden alkuperän.",
 
+  "origin.touhoublessings.beast_spirits.name": "Petohenget",
+  "origin.touhoublessings.beast_spirits.description": "Petohenkien siunauksella voit lainata eläinhenkien voimia, jotka auttavat sinua paremmin työskentelemään eläinten kanssa. Ole kuitenkin varovainen, ettet tule riivatuksi.",
+
+  "power.touhoublessings.husbandry_master.name": "Maatalous mestari",
+  "power.touhoublessings.husbandry_master.description": "Eläimet, joita paritat, tarvitsevat puolet vähemmän aikaa ollakseen valmiita parittelemaan uudelleen.",
+
+  "power.touhoublessings.sturdy_beasts.name": "Kestävät elukat",
+  "power.touhoublessings.sturdy_beasts.description": "Kesyttämäsi eläimet saavat pysyvän haarniskabonuksen.",
+
+  "power.touhoublessings.animal_empath.name": "Eläin empaatti",
+  "power.touhoublessings.animal_empath.description": "Et vahingoita omia kesytettyjä eläimiäsi, ja ne saavat elpymisefektin, kun ne ovat lähelläsi.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Ihme tapahtuu",
 
   "power.touhoublessings.youkai_buster.badge": "Ei koske keijuja, taivaallisia tai haniwoja.",

@@ -38,6 +38,18 @@
   "power.touhoublessings.one_life.name": "One Life",
   "power.touhoublessings.one_life.description": "Like Hardcore mode, you only have one life. If you die, instead of being forced into spectator mode, you respawn with a fresh character. You lose most of your progress but get to pick a new origin.",
 
+  "origin.touhoublessings.beast_spirits.name": "Beast Spirits",
+  "origin.touhoublessings.beast_spirits.description": "With the Blessing of Beast Spirits you can borrow the animal spirits' powers, helping you to better work with animals. Be careful not to become possessed, however.",
+
+  "power.touhoublessings.husbandry_master.name": "Husbandry Master",
+  "power.touhoublessings.husbandry_master.description": "Animals you breed take half as long to be ready to mate again.",
+
+  "power.touhoublessings.sturdy_beasts.name": "Sturdy Beasts",
+  "power.touhoublessings.sturdy_beasts.description": "Animals you tame receive a permanent armor bonus.",
+
+  "power.touhoublessings.animal_empath.name": "Animal Empath",
+  "power.touhoublessings.animal_empath.description": "You do not hurt your own tamed animals and they receive a regeneration effect when near you.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa.",
