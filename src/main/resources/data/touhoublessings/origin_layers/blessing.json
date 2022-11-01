@@ -7,7 +7,8 @@
     "touhoublessings:high_stakes",
     "touhoublessings:knowledge",
     "touhoublessings:permadeath",
-    "touhoublessings:beast_spirits"
+    "touhoublessings:beast_spirits",
+    "touhoublessings:scarlet"
   ],
   "allow_random": true,
   "exclude_random": [

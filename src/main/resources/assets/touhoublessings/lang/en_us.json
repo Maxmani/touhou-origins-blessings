@@ -50,6 +50,12 @@
   "power.touhoublessings.animal_empath.name": "Animal Empath",
   "power.touhoublessings.animal_empath.description": "You do not hurt your own tamed animals and they receive a regeneration effect when near you.",
 
+  "origin.touhoublessings.scarlet.name": "Scarlet",
+  "origin.touhoublessings.scarlet.description": "The inside of the mansion is much larger than is apparent from the outside.",
+
+  "power.touhoublessings.spacetime_manipulation.name": "Spacetime Manipulation",
+  "power.touhoublessings.spacetime_manipulation.description": "You have increased item pickup range.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa.",

@@ -20,7 +20,7 @@ public class ChildCreationMixin {
             super(entityType, world);
         }
 
-        @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/PassiveEntity;", at = @At("RETURN"))
+        @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/WolfEntity;", at = @At("RETURN"))
         private void applyBeastSpiritBonus(ServerWorld serverWorld, PassiveEntity passiveEntity, CallbackInfoReturnable<WolfEntity> cir) {
             if(ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
                 EntityUtil.addBeastSpiritAttributes(cir.getReturnValue());
@@ -35,7 +35,7 @@ public class ChildCreationMixin {
             super(entityType, world);
         }
 
-        @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/PassiveEntity;", at = @At("RETURN"))
+        @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/CatEntity;", at = @At("RETURN"))
         private void applyBeastSpiritBonus(ServerWorld world, PassiveEntity entity, CallbackInfoReturnable<PassiveEntity> cir) {
             if(ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
                 EntityUtil.addBeastSpiritAttributes(cir.getReturnValue());
