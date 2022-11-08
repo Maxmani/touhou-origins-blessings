@@ -38,5 +38,6 @@ item modify entity @s enderchest.24 touhoublessings:delete
 item modify entity @s enderchest.25 touhoublessings:delete
 item modify entity @s enderchest.26 touhoublessings:delete
 
-# Reset advancements
+# Reset advancements and recipes
 advancement revoke @s everything
+recipe take @s *
