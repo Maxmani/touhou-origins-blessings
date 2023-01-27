@@ -1,9 +1,9 @@
-package net.maxmani.touhoublessings.registry;
+package net.reimaden.touhoublessings.registry;
 
 import io.github.apace100.apoli.power.Power;
 import io.github.apace100.apoli.power.PowerType;
 import io.github.apace100.apoli.power.PowerTypeReference;
-import net.maxmani.touhoublessings.TouhouBlessings;
+import net.reimaden.touhoublessings.TouhouBlessings;
 import net.minecraft.util.Identifier;
 
 public class ModPowers {

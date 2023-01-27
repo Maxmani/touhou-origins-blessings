@@ -1,7 +1,7 @@
-package net.maxmani.touhoublessings.mixin;
+package net.reimaden.touhoublessings.mixin;
 
-import net.maxmani.touhoublessings.registry.ModPowers;
-import net.maxmani.touhoublessings.util.EntityUtil;
+import net.reimaden.touhoublessings.registry.ModPowers;
+import net.reimaden.touhoublessings.util.EntityUtil;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.passive.AbstractHorseEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -14,8 +14,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class AbstractHorseEntityMixin {
 
     @Inject(method = "bondWithPlayer", at = @At("TAIL"))
-    private void applyBeastSpiritBonus(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
-        if(ModPowers.STURDY_BEASTS.isActive(player)) {
+    private void touhoublessings$applyBeastSpiritBonus(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
+        if (ModPowers.STURDY_BEASTS.isActive(player)) {
             EntityUtil.addBeastSpiritAttributes((LivingEntity) (Object) this);
         }
     }

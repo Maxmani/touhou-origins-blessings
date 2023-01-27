@@ -1,7 +1,7 @@
-package net.maxmani.touhoublessings.mixin;
+package net.reimaden.touhoublessings.mixin;
 
-import net.maxmani.touhoublessings.registry.ModPowers;
-import net.maxmani.touhoublessings.util.EntityUtil;
+import net.reimaden.touhoublessings.registry.ModPowers;
+import net.reimaden.touhoublessings.util.EntityUtil;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.TameableEntity;
@@ -20,8 +20,8 @@ public abstract class TameableEntityMixin extends AnimalEntity {
     }
 
     @Inject(method = "setOwner", at = @At("HEAD"))
-    private void applyBeastSpiritBonus(PlayerEntity player, CallbackInfo ci) {
-        if(ModPowers.STURDY_BEASTS.isActive(player)) {
+    private void touhoublessings$applyBeastSpiritBonus(PlayerEntity player, CallbackInfo ci) {
+        if (ModPowers.STURDY_BEASTS.isActive(player)) {
             EntityUtil.addBeastSpiritAttributes(this);
         }
     }

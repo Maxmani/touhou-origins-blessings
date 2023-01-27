@@ -1,6 +1,6 @@
-package net.maxmani.touhoublessings.mixin;
+package net.reimaden.touhoublessings.mixin;
 
-import net.maxmani.touhoublessings.registry.ModPowers;
+import net.reimaden.touhoublessings.registry.ModPowers;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -18,8 +18,8 @@ public abstract class PlayerEntityMixin extends LivingEntity {
     }
 
     @ModifyVariable(method = "tickMovement", at = @At("STORE"), index = 2)
-    private Box increasePickupRange(Box value) {
-        if(ModPowers.SPACETIME_MANIPULATION.isActive(((PlayerEntity) (Object) this))) {
+    private Box touhoublessings$increasePickupRange(Box value) {
+        if (ModPowers.SPACETIME_MANIPULATION.isActive(((PlayerEntity) (Object) this))) {
             return value.expand(2);
         }
         return value;

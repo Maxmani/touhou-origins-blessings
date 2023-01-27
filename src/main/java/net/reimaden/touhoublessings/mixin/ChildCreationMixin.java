@@ -1,7 +1,7 @@
-package net.maxmani.touhoublessings.mixin;
+package net.reimaden.touhoublessings.mixin;
 
-import net.maxmani.touhoublessings.registry.ModPowers;
-import net.maxmani.touhoublessings.util.EntityUtil;
+import net.reimaden.touhoublessings.registry.ModPowers;
+import net.reimaden.touhoublessings.util.EntityUtil;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.*;
 import net.minecraft.server.world.ServerWorld;
@@ -21,8 +21,8 @@ public class ChildCreationMixin {
         }
 
         @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/WolfEntity;", at = @At("RETURN"))
-        private void applyBeastSpiritBonus(ServerWorld serverWorld, PassiveEntity passiveEntity, CallbackInfoReturnable<WolfEntity> cir) {
-            if(ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
+        private void touhoublessings$applyBeastSpiritBonus(ServerWorld serverWorld, PassiveEntity passiveEntity, CallbackInfoReturnable<WolfEntity> cir) {
+            if (ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
                 EntityUtil.addBeastSpiritAttributes(cir.getReturnValue());
             }
         }
@@ -36,8 +36,8 @@ public class ChildCreationMixin {
         }
 
         @Inject(method = "createChild(Lnet/minecraft/server/world/ServerWorld;Lnet/minecraft/entity/passive/PassiveEntity;)Lnet/minecraft/entity/passive/CatEntity;", at = @At("RETURN"))
-        private void applyBeastSpiritBonus(ServerWorld world, PassiveEntity entity, CallbackInfoReturnable<PassiveEntity> cir) {
-            if(ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
+        private void touhoublessings$applyBeastSpiritBonus(ServerWorld world, PassiveEntity entity, CallbackInfoReturnable<PassiveEntity> cir) {
+            if (ModPowers.STURDY_BEASTS.isActive(this.getOwner())) {
                 EntityUtil.addBeastSpiritAttributes(cir.getReturnValue());
             }
         }
@@ -51,8 +51,8 @@ public class ChildCreationMixin {
         }
 
         @Inject(method = "createChild", at = @At("RETURN"))
-        private void applyBeastSpiritBonus(ServerWorld world, PassiveEntity entity, CallbackInfoReturnable<PassiveEntity> cir) {
-            if(ModPowers.STURDY_BEASTS.isActive(world.getPlayerByUuid(this.getOwnerUuid()))) {
+        private void touhoublessings$applyBeastSpiritBonus(ServerWorld world, PassiveEntity entity, CallbackInfoReturnable<PassiveEntity> cir) {
+            if (ModPowers.STURDY_BEASTS.isActive(world.getPlayerByUuid(this.getOwnerUuid()))) {
                 EntityUtil.addBeastSpiritAttributes(cir.getReturnValue());
             }
         }
