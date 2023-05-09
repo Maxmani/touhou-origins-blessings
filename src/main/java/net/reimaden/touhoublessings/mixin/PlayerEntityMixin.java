@@ -19,7 +19,8 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 
     @ModifyVariable(method = "tickMovement", at = @At("STORE"), index = 2)
     private Box touhoublessings$increasePickupRange(Box value) {
-        if (ModPowers.SPACETIME_MANIPULATION.isActive(((PlayerEntity) (Object) this))) {
+        PlayerEntity player = ((PlayerEntity) (Object) this);
+        if (ModPowers.SPACETIME_MANIPULATION.isActive(player) && player.isSneaking()) {
             return value.expand(2);
         }
         return value;
