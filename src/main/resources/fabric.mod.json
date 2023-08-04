@@ -31,11 +31,11 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric-api": "*",
-    "minecraft": "1.19.x",
+    "minecraft": "1.20.1",
     "java": ">=17",
-    "origins": ">=1.8.1"
+    "origins": ">=1.10.0"
   },
   "suggests": {
     "touhouorigins": "*"

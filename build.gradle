@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.0-SNAPSHOT'
+	id 'fabric-loom' version '1.2-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -40,6 +40,9 @@ repositories {
 	maven {
 		url "https://maven.terraformersmc.com/"
 	}
+	// Workaround until Origins' dependencies update
+	// https://discord.com/channels/734127708488859831/838871885709705237/1122763121925300265
+	mavenLocal()
 }
 
 dependencies {
@@ -49,7 +52,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Origins
-	modImplementation "com.github.MerchantPug:origins-fabric:${project.origins_version}"
+	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
