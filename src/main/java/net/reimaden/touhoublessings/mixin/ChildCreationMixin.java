@@ -1,11 +1,11 @@
 package net.reimaden.touhoublessings.mixin;
 
-import net.reimaden.touhoublessings.registry.ModPowers;
-import net.reimaden.touhoublessings.util.EntityUtil;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.*;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.World;
+import net.reimaden.touhoublessings.power.ModPowers;
+import net.reimaden.touhoublessings.util.EntityUtil;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

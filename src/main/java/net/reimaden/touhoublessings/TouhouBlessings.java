@@ -1,7 +1,8 @@
 package net.reimaden.touhoublessings;
 
 import net.fabricmc.api.ModInitializer;
-import net.reimaden.touhoublessings.registry.ModSounds;
+import net.minecraft.util.Identifier;
+import net.reimaden.touhoublessings.sound.ModSoundEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,10 @@ public class TouhouBlessings implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Blessing your origins.");
 
-		ModSounds.register();
+		ModSoundEvents.register();
+	}
+
+	public static Identifier id(String path) {
+		return new Identifier(MOD_ID, path);
 	}
 }
