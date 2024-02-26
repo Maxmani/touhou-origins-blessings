@@ -9,7 +9,6 @@
     "ChildCreationMixin$CatKids",
     "ChildCreationMixin$HorseKids",
     "ChildCreationMixin$WolfKids",
-    "PlayerEntityMixin",
     "TameableEntityMixin"
   ],
   "client": [
