@@ -54,6 +54,12 @@
   "power.touhoublessings.scarlet/spacetime_manipulation.name": "Spacetime Manipulation",
   "power.touhoublessings.scarlet/spacetime_manipulation.description": "Your item pickup range is doubled while sneaking.",
 
+  "origin.touhoublessings.eientei.name": "Eientei",
+  "origin.touhoublessings.eientei.description": "Eientei is the name of a large, old-fashioned Japanese mansion hidden deep within the Bamboo Forest of the Lost.",
+
+  "power.touhoublessings.eientei/hidden.name": "Hidden",
+  "power.touhoublessings.eientei/hidden.description": "Mob detection range is halved.",
+
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 
   "power.touhoublessings.youkai_buster.badge": "Does not include Fairies, Celestials, or Haniwa.",

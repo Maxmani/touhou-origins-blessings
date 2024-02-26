@@ -8,7 +8,8 @@
     "touhoublessings:knowledge",
     "touhoublessings:permadeath",
     "touhoublessings:beast_spirits",
-    "touhoublessings:scarlet"
+    "touhoublessings:scarlet",
+    "touhoublessings:eientei"
   ],
   "allow_random": true,
   "exclude_random": [

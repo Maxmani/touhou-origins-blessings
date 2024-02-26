@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "touhoublessings:eientei/hidden"
+  ],
+  "icon": {
+    "item": "minecraft:player_head",
+    "tag": "{SkullOwner:{Id:[I;1010338952,-1682616408,-1291782370,-1872320964],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVlODRkNmYyZGJkZjdhM2M5MTlmNzdlYzIyZTZlZTI2NjFlMDE3M2E4YTk3MWUxMWM5ODAwMjIzNGU2NDE3ZiJ9fX0=\"}]}}}"
+  },
+  "order": 4,
+  "impact": 1
+}
