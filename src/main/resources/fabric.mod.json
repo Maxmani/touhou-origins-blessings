@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "touhoublessings",
   "version": "${version}",
-
   "name": "Touhou Origins: Blessings",
   "description": "An add-on for the Origins mod which adds blessings inspired by the Touhou Project series.",
   "authors": [
@@ -16,10 +15,8 @@
     "issues": "https://github.com/Maxmani/touhou-origins-blessings/issues",
     "sources": "https://github.com/Maxmani/touhou-origins-blessings"
   },
-
   "license": "GPL-3.0-or-later",
   "icon": "assets/touhoublessings/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -29,15 +26,21 @@
   "mixins": [
     "touhoublessings.mixins.json"
   ],
-
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": ">=0.15",
     "fabric-api": "*",
-    "minecraft": "1.20.1",
+    "minecraft": "~1.20",
     "java": ">=17",
-    "origins": ">=1.10.0"
+    "origins": ">=1.12.3"
   },
   "suggests": {
     "touhouorigins": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/WESu6XEcF7"
+      }
+    }
   }
 }

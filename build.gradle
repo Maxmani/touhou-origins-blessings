@@ -1,22 +1,22 @@
 plugins {
-	id 'fabric-loom' version '1.0-SNAPSHOT'
+	id 'fabric-loom' version '1.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
-
-archivesBaseName = project.archives_base_name
-version = project.mod_version
+version = "${project.mod_version}+${minecraft_version}"
 group = project.maven_group
 
-remapJar {
-	archiveAppendix.set("${project.minecraft_version}")
+base {
+	archivesName = project.archives_base_name
 }
 
 repositories {
 	maven {
-		name = 'Ladysnake Mods'
+		name = "QuiltMC"
+		url = "https://maven.quiltmc.org/repository/release"
+	}
+	maven {
+		name = "Ladysnake Libs"
 		url = 'https://maven.ladysnake.org/releases'
 	}
 	maven {
@@ -26,23 +26,33 @@ repositories {
 		}
 	}
 	maven {
-		url "https://maven.jamieswhiteshirt.com/libs-release"
+		url = "https://maven.jamieswhiteshirt.com/libs-release"
 		content {
 			includeGroup "com.jamieswhiteshirt"
 		}
 	}
 	maven {
-		url "https://jitpack.io"
+		url = "https://maven.shedaniel.me/"
 	}
 	maven {
-		url "https://maven.shedaniel.me/"
+		url = "https://maven.terraformersmc.com/"
 	}
 	maven {
-		url "https://maven.terraformersmc.com/"
+		name = "Modrinth"
+		url = "https://api.modrinth.com/maven"
 	}
-	// Workaround until Origins' dependencies update
-	// https://discord.com/channels/734127708488859831/838871885709705237/1122763121925300265
-	mavenLocal()
+	maven {
+		url = "https://masa.dy.fi/maven"
+	}
+	maven {
+		name = "Nexus Repository Manager"
+		url = 'https://oss.sonatype.org/content/repositories/snapshots'
+	}
+	// Keep JitPack below other repositories
+	maven {
+		name = "JitPack"
+		url = 'https://jitpack.io'
+	}
 }
 
 dependencies {
@@ -51,11 +61,14 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
+	// Fabric API. This is technically optional, but you probably want it anyway.
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
 	// Origins
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	// Voile
+	modImplementation(include("com.github.Maxmani:voile:${project.voile_version}"))
 }
 
 processResources {
@@ -67,7 +80,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
+	//noinspection GroovyAssignabilityCheck, GroovyAccessibility
 	it.options.release = 17
 }
 
@@ -76,22 +89,23 @@ java {
 	// if it is present.
 	// If you remove this line, sources will not be generated.
 	withSourcesJar()
-}
 
-remapSourcesJar {
-	archiveAppendix.set("${project.minecraft_version}")
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
 }
 
 jar {
 	from("LICENSE") {
-		rename { "${it}_${project.archivesBaseName}"}
+		rename { "${it}_${project.base.archivesName.get()}"}
 	}
 }
 
 // configure the maven publication
 publishing {
 	publications {
+		//noinspection GroovyAssignabilityCheck
 		mavenJava(MavenPublication) {
+			//noinspection GroovyAssignabilityCheck
 			from components.java
 		}
 	}
