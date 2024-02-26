@@ -1,0 +1,7 @@
+{
+  "type": "voile:modify_pickup_range",
+  "range": 1,
+  "condition": {
+    "type": "apoli:sneaking"
+  }
+}

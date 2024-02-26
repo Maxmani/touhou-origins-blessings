@@ -1,8 +1,8 @@
 {
   "powers": [
-    "touhoublessings:husbandry_master",
-    "touhoublessings:sturdy_beasts",
-    "touhoublessings:animal_empath"
+    "touhoublessings:beast_spirits/husbandry_master",
+    "touhoublessings:beast_spirits/sturdy_beasts",
+    "touhoublessings:beast_spirits/animal_empath"
   ],
   "icon": {
     "item": "minecraft:player_head",

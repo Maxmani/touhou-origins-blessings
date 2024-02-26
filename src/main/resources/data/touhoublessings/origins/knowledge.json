@@ -1,6 +1,6 @@
 {
   "powers": [
-    "touhoublessings:adept"
+    "touhoublessings:knowledge/adept"
   ],
   "icon": {
     "item": "minecraft:player_head",

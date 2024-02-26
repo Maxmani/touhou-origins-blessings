@@ -1,6 +1,6 @@
 {
   "powers": [
-    "touhoublessings:one_life"
+    "touhoublessings:permadeath/one_life"
   ],
   "icon": {
     "item": "minecraft:player_head",

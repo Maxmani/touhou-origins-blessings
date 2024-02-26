@@ -1,7 +1,7 @@
 {
   "powers": [
-    "touhoublessings:wind_protection",
-    "touhoublessings:miracle"
+    "touhoublessings:moriya/wind_protection",
+    "touhoublessings:moriya/miracle"
   ],
   "icon": {
     "item": "minecraft:player_head",

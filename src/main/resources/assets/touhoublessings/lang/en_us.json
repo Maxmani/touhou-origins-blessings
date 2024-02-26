@@ -9,52 +9,50 @@
   "origin.touhoublessings.hakurei.name": "Hakurei",
   "origin.touhoublessings.hakurei.description": "Shrine maidens are trained in youkai extermination techniques as well as standard duties like performing blessings.",
 
-  "power.touhoublessings.youkai_buster.name": "Youkai Buster",
-  "power.touhoublessings.youkai_buster.description": "You deal 10% increased damage against all youkai.",
+  "power.touhoublessings.hakurei/youkai_buster.name": "Youkai Buster",
+  "power.touhoublessings.hakurei/youkai_buster.description": "You deal 10% increased damage against all youkai.",
 
   "origin.touhoublessings.moriya.name": "Moriya",
   "origin.touhoublessings.moriya.description": "With the Moriya Shrine's blessing, you will be put under the Wind God's protection.",
 
-  "power.touhoublessings.wind_protection.name": "Wind Protection",
-  "power.touhoublessings.wind_protection.description": "You take 10% reduced base fall damage.",
-  "power.touhoublessings.miracle.name": "Miracle",
-  "power.touhoublessings.miracle.description": "You have a 1% chance of negating all damage.",
+  "power.touhoublessings.moriya/wind_protection.name": "Wind Protection",
+  "power.touhoublessings.moriya/wind_protection.description": "You take 10% reduced base fall damage.",
+  "power.touhoublessings.moriya/miracle.name": "Miracle",
+  "power.touhoublessings.moriya/miracle.description": "You have a 1% chance of negating all damage.",
 
   "origin.touhoublessings.high_stakes.name": "High Stakes",
   "origin.touhoublessings.high_stakes.description": "Trade your health for more damage with the Curse of High Stakes.",
 
-  "power.touhoublessings.glass_cannon.name": "Glass Cannon",
-  "power.touhoublessings.glass_cannon.description": "In exchange for half of your total health, you gain 25% increased base damage.",
+  "power.touhoublessings.high_stakes/glass_cannon.name": "Glass Cannon",
+  "power.touhoublessings.high_stakes/glass_cannon.description": "In exchange for half of your total health, you gain 25% increased base damage.",
 
   "origin.touhoublessings.knowledge.name": "Knowledge",
   "origin.touhoublessings.knowledge.description": "Quench your thirst for experience with the Blessing of Knowledge.",
 
-  "power.touhoublessings.adept.name": "Adept",
-  "power.touhoublessings.adept.description": "You gain 50% increased XP from all sources.",
+  "power.touhoublessings.knowledge/adept.name": "Adept",
+  "power.touhoublessings.knowledge/adept.description": "You gain 50% increased XP from all sources.",
 
   "origin.touhoublessings.permadeath.name": "Permadeath",
   "origin.touhoublessings.permadeath.description": "Upon dying, instead of crossing the Sanzu River in the afterlife, your soul will reincarnate, losing all earthly possessions including those in your ender chest and origin specific inventories, as well as any other progress you've made. On the other hand, you'll get a chance to pick a new origin for yourself.",
 
-  "power.touhoublessings.one_life.name": "One Life",
-  "power.touhoublessings.one_life.description": "Like Hardcore mode, you only have one life. If you die, instead of being forced into spectator mode, you respawn with a fresh character. You lose most of your progress but get to pick a new origin.",
+  "power.touhoublessings.permadeath/one_life.name": "One Life",
+  "power.touhoublessings.permadeath/one_life.description": "Like Hardcore mode, you only have one life. If you die, instead of being forced into spectator mode, you respawn with a fresh character. You lose most of your progress but get to pick a new origin.",
 
   "origin.touhoublessings.beast_spirits.name": "Beast Spirits",
   "origin.touhoublessings.beast_spirits.description": "With the Blessing of Beast Spirits you can borrow the animal spirits' powers, helping you to better work with animals. Be careful not to become possessed, however.",
 
-  "power.touhoublessings.husbandry_master.name": "Husbandry Master",
-  "power.touhoublessings.husbandry_master.description": "Animals you breed take half as long to be ready to mate again.",
-
-  "power.touhoublessings.sturdy_beasts.name": "Sturdy Beasts",
-  "power.touhoublessings.sturdy_beasts.description": "Animals you tame receive a permanent armor bonus.",
-
-  "power.touhoublessings.animal_empath.name": "Animal Empath",
-  "power.touhoublessings.animal_empath.description": "You do not hurt your own tamed animals and they receive a regeneration effect when near you.",
+  "power.touhoublessings.beast_spirits/husbandry_master.name": "Husbandry Master",
+  "power.touhoublessings.beast_spirits/husbandry_master.description": "Animals you breed take half as long to be ready to mate again.",
+  "power.touhoublessings.beast_spirits/sturdy_beasts.name": "Sturdy Beasts",
+  "power.touhoublessings.beast_spirits/sturdy_beasts.description": "Animals you tame receive a permanent armor bonus.",
+  "power.touhoublessings.beast_spirits/animal_empath.name": "Animal Empath",
+  "power.touhoublessings.beast_spirits/animal_empath.description": "You do not hurt your own tamed animals with melee and they receive a regeneration effect when near you.",
 
   "origin.touhoublessings.scarlet.name": "Scarlet",
   "origin.touhoublessings.scarlet.description": "The inside of the Scarlet Devil Mansion is much larger than is apparent from the outside.",
 
-  "power.touhoublessings.spacetime_manipulation.name": "Spacetime Manipulation",
-  "power.touhoublessings.spacetime_manipulation.description": "You have increased item pickup range while sneaking.",
+  "power.touhoublessings.scarlet/spacetime_manipulation.name": "Spacetime Manipulation",
+  "power.touhoublessings.scarlet/spacetime_manipulation.description": "Your item pickup range is doubled while sneaking.",
 
   "touhoublessings.subtitles.blessing.miracle.trigger": "Miracle happens",
 

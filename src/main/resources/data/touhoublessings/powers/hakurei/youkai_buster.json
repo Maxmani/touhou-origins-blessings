@@ -26,11 +26,11 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:satori"
+              "origin": "touhouorigins:ghost"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:satori_closed_eye"
+              "origin": "touhouorigins:vengeful_spirit"
             },
             {
               "type": "origins:origin",
@@ -42,19 +42,7 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:ghost"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:jiang_shi"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:vengeful_spirit"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:yuki_onna"
+              "origin": "touhouorigins:earth_rabbit"
             },
             {
               "type": "origins:origin",
@@ -62,15 +50,31 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:earth_rabbit"
+              "origin": "touhouorigins:jiang_shi"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:hell_raven"
+              "origin": "touhouorigins:satori"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:kurayami"
+              "origin": "touhouorigins:satori_closed_eye"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:oarfish"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:amanojaku"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:nue"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:bake_danuki"
             }
           ]
         }
@@ -108,11 +112,11 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:satori"
+              "origin": "touhouorigins:ghost"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:satori_closed_eye"
+              "origin": "touhouorigins:vengeful_spirit"
             },
             {
               "type": "origins:origin",
@@ -124,19 +128,7 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:ghost"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:jiang_shi"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:vengeful_spirit"
-            },
-            {
-              "type": "origins:origin",
-              "origin": "touhouorigins:yuki_onna"
+              "origin": "touhouorigins:earth_rabbit"
             },
             {
               "type": "origins:origin",
@@ -144,15 +136,31 @@
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:earth_rabbit"
+              "origin": "touhouorigins:jiang_shi"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:hell_raven"
+              "origin": "touhouorigins:satori"
             },
             {
               "type": "origins:origin",
-              "origin": "touhouorigins:kurayami"
+              "origin": "touhouorigins:satori_closed_eye"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:oarfish"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:amanojaku"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:nue"
+            },
+            {
+              "type": "origins:origin",
+              "origin": "touhouorigins:bake_danuki"
             }
           ]
         }

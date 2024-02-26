@@ -1,12 +1,8 @@
 {
   "type": "apoli:multiple",
-  "status_bar": {
-    "type": "apoli:status_bar_texture",
-    "texture": "touhoublessings:textures/gui/permadeath.png"
-  },
   "objective": {
-    "type": "origins:action_on_callback",
-    "entity_action_chosen": {
+    "type": "apoli:action_on_callback",
+    "entity_action_gained": {
       "type": "apoli:and",
       "actions": [
         {
@@ -34,15 +30,13 @@
     }
   },
   "death": {
-    "type": "apoli:action_when_damage_taken",
-    "entity_action": {
-      "type": "apoli:execute_command",
-      "command": "function touhoublessings:permadeath"
-    },
-    "condition": {
-      "type": "apoli:relative_health",
-      "comparison": "<=",
-      "compare_to": 0
+    "type": "apoli:action_on_death",
+    "bientity_action": {
+      "type": "apoli:target_action",
+      "action": {
+        "type": "apoli:execute_command",
+        "command": "function touhoublessings:permadeath"
+      }
     }
   },
   "keep_inventory": {

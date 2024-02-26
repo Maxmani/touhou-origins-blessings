@@ -1,8 +1,8 @@
 {
   "type": "apoli:modify_damage_taken",
   "condition": {
-    "type": "apoli:predicate",
-    "predicate": "touhoublessings:miracle_chance"
+    "type": "apoli:chance",
+    "chance": 0.01
   },
   "modifier": {
     "name": "Prevent damage",
