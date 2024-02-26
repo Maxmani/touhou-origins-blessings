@@ -15,7 +15,7 @@
     "issues": "https://github.com/Maxmani/touhou-origins-blessings/issues",
     "sources": "https://github.com/Maxmani/touhou-origins-blessings"
   },
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "icon": "assets/touhoublessings/icon.png",
   "environment": "*",
   "entrypoints": {
